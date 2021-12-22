@@ -20,7 +20,7 @@ Hi there, my name is Aleksey and I want to become a front-end developer. I start
 2. The Rolling Scopes School #stage0 (in progress)
 
 ## Language:
-Russian - Native
+Russian - Native / 
 English - B1 (Pre-Intermediate)
 
 ## Code example:
