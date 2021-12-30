@@ -12,14 +12,18 @@
 
 /*    Global    */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   min-width: 600px;
   margin: 0;
   padding: 0;
   font-family: 'Inter', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-/* background-image: linear-gradient(45deg, rgb(175, 175, 175), white); */
+  background-image: linear-gradient(90deg, rgb(185, 185, 202), rgb(255, 255, 255)); */
 }
 
 a {
@@ -36,16 +40,70 @@ img { /* Все картинки растягиваются в рамках ко
   height: auto;
 }
 
+i {
+  color: rgb(143, 143, 143);
+}
+
+/* .main-navigation, .main-profile, .main-container, .section-main, .logo, .profile, .main-footer {
+  outline: 2px dotted #999; 
+  outline-offset: -2px;
+} */
+
 /*   NAV   */
 
+.main-navigation {
+  display: block;
+  /* grid-template-columns: 1fr min-content; */ /* займи все свободное место */
+  width: 940px; /* ширина макс блока из фигмы */
+  margin: 0 auto; /* блок по центру */
+  padding: 0 10px;
+  margin-bottom: 60px;
+}
+ 
 .navigation-list {
-  list-style: none; /* убрал точки у списков */
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  list-style: none; /* Убрал точки у списков */
   font-size: 16px;
 }
 
+
 /*   MAIN   */
+
+.html-page {
+  height: 100%; /* Высота по всей странице */
+}
+
+.body-page {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+  counter-reset: section;
+}
+
+.main-container { /* фул блок МЭЙНА */
+  width: 940px; /* мин. ширина проекта */
+  margin: 0 auto; /* блок по центру */
+  padding: 0 10px; /* небольшой отступ для контента */
+}
+
+.main-profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 30px;
+}
+
+.profile {
+  width: 600px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
 
 h1 {
   font-family: 'KonstantGrotesk';
@@ -55,11 +113,36 @@ h1 {
   line-height: 32px;
 }
 
-.section-title {
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* соотношение для деления блоков */
+  /*column-gap: 10px; расстояние между блоками */
+  grid-gap: 50px;
+}
+
+.section-main {
+  width: 300px;
+  margin-top: 15px;
+}
+
+h2 {
   font-family: 'KonstantGrotesk'; 
   text-transform: uppercase;
   font-weight: 100;
   font-size: 18px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 10px;
+}
+
+.section-title::after { /*  Счетчик в секциях  */
+  counter-increment: section; 
+  content: "0"counter(section);
+  text-align: right;
+  float:right;
+}
+
+.section-title:hover::after {
+  content: "00"
 }
 
 .contacts-list {
@@ -68,16 +151,33 @@ h1 {
   padding: 0;
 }
 
-
+.section-list, .education-list {
+  padding-left: 20px;
+}
 
 code {
-  background-color: #eee;
+  background-color: rgb(213, 213, 228);
   border: 1px solid #999;
   display: block;
   padding: 20px;
 }
 
+/*   Footer   */
 
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 940px;
+  padding: 20px;
+}
+
+
+.footer-rs {
+  width: 120px;
+  filter: invert(20%);
+}
 
 
 
