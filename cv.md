@@ -1,13 +1,12 @@
 
 # Aleksey Unknown
 
-Hi there, my name is Aleksey and I want to become a front-end developer. I started learning **HTML**, **CSS** and **JS**.
+Hi there, my name is Aleksey and I want to become a front-end developer. I do SMM and sometimes study design as a hobby. In December 2021 i started learning **HTML**, **CSS** and **JS**. In February I graduated from RS PRE-SCHOOL.
 
 ## Contacts:
 
 -  **Location**: Russian Federation
--  **Tel**: +71337451010
--  **E-mail**: xposed01@fakegithub.com
+-  **Discord**: Nickel#1973
 
 ## My skills:
 - HTML5, CSS3
