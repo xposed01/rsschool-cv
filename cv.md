@@ -9,14 +9,14 @@ Hi there, my name is Aleksey and I want to become a front-end developer. I do SM
 -  **Discord**: Nickel#1973
 
 ## My skills:
-- HTML5, CSS3
-- Git, GitHub (in progress)
-- Adobe Photoshop
+- HTML, CSS, JavaScript
+- Git, GitHub
+- Adobe Photoshop, Figma
 
 ## Education and courses:
 
 1. Higher Education: Advertising and PR
-2. The Rolling Scopes School #stage0 (in progress)
+2. RS School. JS/FE Pre-School 2022
 
 ## Language:
 Russian - Native / 
