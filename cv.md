@@ -39,3 +39,4 @@ JavaScript - A1 (Beginner)
 *Desktop first, pixel perfect, mobile adaptive + JS*
 - [Audio Player](https://xposed01.github.io/rs-stage0/audio-player/)
 - [Random Jokes](https://xposed01.github.io/rs-stage0/random-jokes/)
+
