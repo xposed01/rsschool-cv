@@ -35,4 +35,6 @@ JavaScript - A1 (Beginner)
 	}
             
 ## My projects:
-- Nothing to see here
+- [Photography Portfolio](https://xposed01.github.io/rs-stage0/portfolio/)
+- [Audio Player](https://xposed01.github.io/rs-stage0/audio-player/)
+- [Random Jokes](https://xposed01.github.io/rs-stage0/random-jokes/)
