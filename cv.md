@@ -1,7 +1,7 @@
 
 # Aleksey Unknown
 
-Hi there, my name is Aleksey and I want to become a front-end developer. I do SMM and sometimes study design as a hobby. In December 2021 i started learning **HTML**, **CSS** and **JS**. In February I graduated from RS PRE-SCHOOL.
+Hi there, my name is Aleksey and I want to become a front-end developer. I do SMM and sometimes study design as a hobby. In December 2021 i started learning **HTML**, **CSS** and **JS**. In February 2022 I graduated from RS PRE-SCHOOL.
 
 ## Contacts:
 
@@ -36,5 +36,6 @@ JavaScript - A1 (Beginner)
             
 ## My projects:
 - [Photography Portfolio](https://xposed01.github.io/rs-stage0/portfolio/)
+*Desktop first, pixel perfect, mobile adaptive + JS*
 - [Audio Player](https://xposed01.github.io/rs-stage0/audio-player/)
 - [Random Jokes](https://xposed01.github.io/rs-stage0/random-jokes/)
