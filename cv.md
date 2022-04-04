@@ -1,36 +1,41 @@
 
 # Aleksey Unknown
 
-Hi there, my name is Aleksey and I want to become a front-end developer. I started learning **HTML**, **CSS** and **JS**.
+Hi there, my name is Aleksey and I want to become a front-end developer. I do SMM and sometimes study design as a hobby. In December 2021 i started learning **HTML**, **CSS** and **JS**. In February 2022 I graduated from RS PRE-SCHOOL.
 
 ## Contacts:
 
 -  **Location**: Russian Federation
--  **Tel**: +71337451010
--  **E-mail**: xposed01@fakegithub.com
+-  **Discord**: Nickel#1973
 
 ## My skills:
-- HTML5, CSS3
-- Git, GitHub (in progress)
-- Adobe Photoshop
+- HTML, CSS, JavaScript
+- Git, GitHub
+- Adobe Photoshop, Figma
 
 ## Education and courses:
 
 1. Higher Education: Advertising and PR
-2. The Rolling Scopes School #stage0 (in progress)
+2. RS School. JS/FE Pre-School 2022
 
 ## Language:
-Russian - Native / 
+Russian - Native
 English - B1 (Pre-Intermediate)
+JavaScript - A1 (Beginner)
 
 ## Code example:
 
-            <!DOCTYPE html>
-            <html>
-            <body>
-                <script>alert( 'Hello, world!' );</script>
-            </body>
-            </html>
+	function unluckyDays(year) {
+	let result = 0;
+	for (let i = 1; i <= 12; i++) {
+		for (let j = 1; j < 31; j++) {
+			let n = new Date(`${year}, ${i}, ${j}`);
+			if (n.getDate() === 13 && n.getDay() === 5) { result++; } } }
+	return result;
+	}
             
 ## My projects:
-- Nothing to see here
+- [Photography Portfolio](https://xposed01.github.io/rs-stage0/portfolio/)
+*Desktop first, pixel perfect, mobile adaptive + JS*
+- [Audio Player](https://xposed01.github.io/rs-stage0/audio-player/)
+- [Random Jokes](https://xposed01.github.io/rs-stage0/random-jokes/)
