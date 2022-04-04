@@ -25,12 +25,14 @@ JavaScript - A1 (Beginner)
 
 ## Code example:
 
-            <!DOCTYPE html>
-            <html>
-            <body>
-                <script>alert( 'Hello, world!' );</script>
-            </body>
-            </html>
+	function unluckyDays(year) {
+	let result = 0;
+	for (let i = 1; i <= 12; i++) {
+		for (let j = 1; j < 31; j++) {
+			let n = new Date(`${year}, ${i}, ${j}`);
+			if (n.getDate() === 13 && n.getDay() === 5) { result++; } } }
+	return result;
+	}
             
 ## My projects:
 - Nothing to see here
