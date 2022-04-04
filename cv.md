@@ -19,8 +19,9 @@ Hi there, my name is Aleksey and I want to become a front-end developer. I do SM
 2. RS School. JS/FE Pre-School 2022
 
 ## Language:
-Russian - Native / 
+Russian - Native
 English - B1 (Pre-Intermediate)
+JavaScript - A1 (Beginner)
 
 ## Code example:
 
