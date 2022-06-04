@@ -20,8 +20,8 @@ Hi there, my name is Aleksey and I want to become a front-end developer. I do SM
 
 ## Language:
 Russian - Native
-English - B1 (Pre-Intermediate)
-JavaScript - A1 (Beginner)
+English - B1 (Intermediate)
+JavaScript - A2 (Pre-Intermediate)
 
 ## Code example:
 
@@ -35,6 +35,11 @@ JavaScript - A1 (Beginner)
 	}
             
 ## My projects:
+- [Pet Shelter](https://rolling-scopes-school.github.io/xposed01-JSFE2022Q1/SHELTER/pages/main/)
+*Desktop first, pixel perfect, mobile adaptive + JS*
+- [Virtual Keyboard](https://xposed01.github.io/virtual-keyboard/)
+- [CSS Meme Slider](https://xposed01.github.io/cssMemSlider/cssMemSlider/)
+*pure css w\o js*
 - [Photography Portfolio](https://xposed01.github.io/rs-stage0/portfolio/)
 *Desktop first, pixel perfect, mobile adaptive + JS*
 - [Audio Player](https://xposed01.github.io/rs-stage0/audio-player/)
